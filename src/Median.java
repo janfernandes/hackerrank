@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 
-class Result {
+class Result4 {
 
     /*
      * Complete the 'findMedian' function below.
@@ -36,7 +36,7 @@ public class Median {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        System.out.println(Result.findMedian(arr));
+        System.out.println(Result4.findMedian(arr));
 
         bufferedReader.close();
     }
